@@ -1,0 +1,53 @@
+第9轮评估结果
+train_r2            : 0.9942
+train_adj_r2        : 0.9942
+train_mae           : 0.9284
+train_mape          : 0.0137
+train_rmse          : 1.2586
+val_r2              : 0.9441
+val_adj_r2          : 0.9431
+val_mae             : 2.6811
+val_mape            : 0.0374
+val_rmse            : 3.8910
+test_r2             : 0.9474
+test_adj_r2         : 0.9465
+test_mae            : 2.6461
+test_mape           : 0.0371
+test_rmse           : 3.8128
+
+Optuna 最优超参数:
+n_estimators        : 912
+learning_rate       : 0.10208479407066835
+num_leaves          : 186
+max_depth           : 19
+min_child_samples   : 312
+min_child_weight    : 1.8272865801095166
+subsample           : 0.8523131227830798
+colsample_bytree    : 0.9997052723698642
+reg_alpha           : 28.815209025861364
+reg_lambda          : 0.04343449234570226
+
+Best MAE: 2.6811
+
+完整参数:
+boosting_type       : gbdt
+class_weight        : None
+colsample_bytree    : 0.9997052723698642
+importance_type     : split
+learning_rate       : 0.10208479407066835
+max_depth           : 19
+min_child_samples   : 312
+min_child_weight    : 1.8272865801095166
+min_split_gain      : 0.0
+n_estimators        : 912
+n_jobs              : -1
+num_leaves          : 186
+objective           : None
+random_state        : 42
+reg_alpha           : 28.815209025861364
+reg_lambda          : 0.04343449234570226
+subsample           : 0.8523131227830798
+subsample_for_bin   : 200000
+subsample_freq      : 0
+
+训练耗时：1944.12 秒
